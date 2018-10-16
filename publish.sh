@@ -1,3 +1,5 @@
+#Script for updating lambda function with directory name and lambda function name
+
 cd /Users/vishnu/Workspace/Alexa-Skills/$1
 rm index.zip
 zip -X -r index.zip *
